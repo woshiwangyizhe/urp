@@ -506,6 +506,7 @@ class MainUi(QtWidgets.QMainWindow):
             # label_Img.pack()
         img_open = Image.open('Figure_1.png')
         # root = tk.Tk()
+
         img_png = ImageTk.PhotoImage(image=img_open)
         label_img = tk.Label(self,image=img_png)
         label_img.pack()
