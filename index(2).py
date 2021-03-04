@@ -11,6 +11,8 @@ from PIL import Image,ImageTk
 import tkinter as tk
 from PIL.ImageTk import PhotoImage
 
+def information():
+    print("test")
 
 class MainUi(QtWidgets.QMainWindow):
     def __init__(self):
